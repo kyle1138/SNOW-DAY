@@ -1,0 +1,13 @@
+A server is a broad term that describes and computer that hosts software or relays data to other devices. An API specifically refers to an interface which isn’t exclusive to any specific kind of device or implementation. Different apps and devices can make use of a server by way of an API, but generally remain independent and therefore more flexible.
+
+
+A DNS server receives requests in the form of text url’s and checks those url’s against a database of associated ip addresses. When receiving a request like “www.google.com” a dns server would reroute that request to the google ip address, or to another dns server that might have that ip address, until it is found and relayed back to original requestor.
+
+
+A multi-page application is one that requires users to load a new html files in order to access different components of the application. A perfect example of this would be wikipedia, or an online retailer like amazon. A single page application doesn’t require a user to ever leave the page. All of the content and functionality already exist on the page, or is brought it by AJAX requests that don’t force the browser to reload an entire page. An example of this would be aol mail, who are way ahead of the curve on everything.
+
+
+RESTful routes indicate what kind of action they are performing, and help simplify and clarify routing on the server side.
+
+
+API keys, are essentially passwords that some API’s require in order to access them. Keys prevent abuse of the API,  and can allow control over user access incase resources are limited or are being monetized.
